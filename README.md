@@ -26,7 +26,8 @@ We will implement two different solutions using data structures covered in the c
 - Test both solutions in the main method.
 
 
+
 ## Project Artifacts
 
-Live Report Document: https://acesse.one/5bmn8aw
-GitHub Repository:  https://github.com/faiew/IT245-Project
+- **Live Report Document:** https://acesse.one/5bmn8aw
+- **GitHub Repository:** https://github.com/faiew/IT245-Project
