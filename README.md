@@ -8,12 +8,14 @@ In this project, we will build a simple Task Scheduling System that schedules ta
 We will implement two different solutions using data structures covered in the course and compare their Big-O time complexity. 
 
 
+
 ## Team Members
 
-Leader: Fay Baddah Aldossari
-Team Member 2: Albandary Alhayyaf
-Team Member 3: Amal Khalid Alawwadhi
-Team Member 4: Juri Mohammed Bawazir
+- **Leader:** Fay Baddah Aldossari
+- **Team Member 2:** Albandary Alhayyaf
+- **Team Member 3:** Amal Khalid Alawwadhi
+- **Team Member 4:** Juri Mohammed Bawazir
+
 
 
 ## Project Requirements
