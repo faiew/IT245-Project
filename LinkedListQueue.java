@@ -21,15 +21,23 @@ class LinkedListQueue{
   private Task front;
   private Task rear;
   private int size;
-//Zero argument constructor
+  private final int capacity; //maximum capacity limit
+  
+//Zero argument constructor with default capacity
   public LinkedListQueue(){
     this.front=this.rear=null;
     this.size=0;
+    this.capacity=100; //default capacity limit
   }
+  
 //add tasks at the end of the queue
 public void enqueue(int id,String name){
-  Task newNode=newTask(id,Name):
-    if(this.rear==null){
+  Task newNode= new Task(id,Name);
+  if(isFull()){
+    System.out.println("LinkedListQueue is full! Cannot schedule:"+name);
+    return;
+  }
+    if(isEmpty()){
     this.front=this.rear=newNode;
   }else{
     this.rear.next=newNode;
