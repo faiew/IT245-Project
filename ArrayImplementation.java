@@ -56,6 +56,36 @@ public class ArrayImplementation {
         arrivalCounter = 0;
 
     }
+ 
+ public void addTask(String taskName, int priority) {
+
+    if(priority <= 0){
+
+        System.out.println("Invalid priority.");
+        return;
+
+    }
+
+    if(taskCount >= tasks.length){
+        System.out.println("Array is full.");
+        return;
+
+    }
+
+    Task newTask = new Task(
+            taskCount + 1,
+            taskName,
+            priority,
+            arrivalCounter++
+    );
+
+    tasks[taskCount] = newTask;
+
+    taskCount++;
+
+    System.out.println("Task added successfully.");
+
+}
 
 }
 
