@@ -3,9 +3,11 @@
 
 ## Introduction
 
-Managing tasks is important in many systems, especially when some tasks need to be completed before others. 
-In this project, we will build a simple Task Scheduling System that schedules tasks based on their arrival order or priority. 
-We will implement two different solutions using data structures covered in the course and compare their Big-O time complexity. 
+      Managing tasks efficiently is critical in many software systems. In this project, we develop a Task Scheduling System to manage and schedule tasks. 
+To compare different approaches, we implement two distinct solutions using fundamental data structures: a sequential Array-based solution 
+and a Linked-List Queue solution.
+    Finally, we analyze and compare their Big-O time complexity to evaluate their performance
+ 
 
 
 
@@ -21,7 +23,7 @@ We will implement two different solutions using data structures covered in the c
 ## Project Requirements
 
 - Implement two different solutions.
-- Use at least one data structure in each solution.
+- Use an Array structure in the first solution and a Linked-List Queue in the second solution
 - Analyze the Big-O time complexity for both solutions.
 - Test both solutions in the main method.
 
