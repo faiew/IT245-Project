@@ -1,5 +1,4 @@
-
-public class Task {
+ class Task {
 
     private int taskId;
     private String taskName;
@@ -39,6 +38,22 @@ public class Task {
                 ", Name: " + taskName +
                 ", Priority: " + priority +
                 ", Arrival Order: " + arrivalOrder;
+
+    }
+
+}
+
+public class ArrayImplementation {
+
+    private Task[] tasks;
+    private int taskCount;
+    private int arrivalCounter;
+
+    public ArrayImplementation(int capacity) {
+
+        tasks = new Task[capacity];
+        taskCount = 0;
+        arrivalCounter = 0;
 
     }
 
