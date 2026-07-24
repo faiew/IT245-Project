@@ -86,7 +86,29 @@ public class ArrayImplementation {
     System.out.println("Task added successfully.");
 
 }
+public void displayPendingTasks(){
 
+    System.out.println("\nPending Tasks:");
+
+    if(taskCount == 0){
+
+        System.out.println("No tasks available.");
+
+    }
+
+    else{
+
+        for(int i = 0; i < taskCount; i++){
+
+            System.out.println(tasks[i]);
+
+        }
+
+    }
+
+    System.out.println("----------------------");
+
+}
 }
 
 
