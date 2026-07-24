@@ -42,8 +42,9 @@ and a Linked-List Queue solution.
 
 ## Key Decisions Made During This Period
 
-- Decision 1: One key decision made during this period was to implement the first solution using a fixed-size array (Task[]),
-  relying on task priority and arrival order, with a shifting mechanism to keep the array organized after execution.
+- Decision 1: One key decision made during this period was to implement the first solution
+  using a fixed-size array (Task[]), relying on task priority and arrival order, with a shifting
+   mechanism to keep the array organized after execution.
 
 
 
