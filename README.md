@@ -29,6 +29,24 @@ and a Linked-List Queue solution.
 
 
 
+  ---
+
+## Work Completed This Period
+
+- Created the initial project report and wrote the project problem statement.
+- Added the project artifact links, Google Doc and GitHub repository.
+- Divided the project tasks among the team members.
+- Started implementing the array-based solution for the task scheduling system with Albandary.
+
+---
+
+## Key Decisions Made During This Period
+
+- Decision 1: One key decision made during this period was to implement the first solution using a fixed-size array (Task[]),
+  relying on task priority and arrival order, with a shifting mechanism to keep the array organized after execution.
+
+
+
 ## Project Artifacts
 
 - **Live Report Document:** https://acesse.one/5bmn8aw
