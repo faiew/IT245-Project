@@ -1,10 +1,10 @@
 //class to define linked task
-class Task{
+class TaskQueueItem{
   int taskId;
   String taskName;
-  Task next;
+  TaskQueueItem next;
 
-public Task(int taskId,String taskName){
+public TaskQueueItem(int taskId,String taskName){
   this.taskId=taskId;
   this.taskName=taskName;
   this.next=null;
@@ -18,8 +18,8 @@ public String toString(){
 
 //Linked List Queue Implementation
 class LinkedListQueue{
-  private Task front;
-  private Task rear;
+  private TaskQueueItem front;
+  private TaskQueueItem rear;
   private int size;
   
 //Zero argument constructor with default capacity
@@ -30,7 +30,7 @@ class LinkedListQueue{
   
 //add tasks at the end of the queue
 public void enqueue(int id,String name){
-  Task newNode= new Task(id,name);
+  TaskQueueItem newNode= new TaskQueueItem(id,name);
     if(isEmpty()){
     this.front=this.rear=newNode;
   }else{
@@ -41,5 +41,4 @@ public void enqueue(int id,String name){
   System.out.println("Task Enqueued:"+newNode);
 }
   
-}
   
