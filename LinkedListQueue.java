@@ -40,5 +40,12 @@ public void enqueue(int id,String name){
   size++;
   System.out.println("Task Enqueued:"+newNode);
 }
+
+// check if the queue is empty
+public boolean isEmpty() {
+    return front == null;
+}
+
+
   
   
