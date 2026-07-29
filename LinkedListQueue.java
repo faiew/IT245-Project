@@ -47,5 +47,20 @@ public boolean isEmpty() {
 }
 
 
+‏// Remove task from the front of the queue
+public void dequeue() {
+    if (isEmpty()) {
+        System.out.println("Queue is underflow. No tasks to dequeue.");
+        return;
+    }
+    
+    System.out.println("Task Dequeued: " + front);
+    front = front.next;
+    
+    if (front == null) {
+        rear = null;
+    }
+    size--;
+}
   
   
