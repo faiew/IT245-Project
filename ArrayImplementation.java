@@ -109,6 +109,45 @@ public void displayPendingTasks(){
     System.out.println("----------------------");
 
 }
+ public void executeNextTask(){
+
+    if(taskCount == 0){
+
+        System.out.println("No tasks available.");
+        return;
+
+    }
+
+    int highestIndex = 0;
+
+    for(int i = 1; i < taskCount; i++){
+
+        if(tasks[i].getPriority() < tasks[highestIndex].getPriority()
+                ||
+           (tasks[i].getPriority() == tasks[highestIndex].getPriority()
+           &&
+           tasks[i].getArrivalOrder() < tasks[highestIndex].getArrivalOrder())){
+
+            highestIndex = i;
+
+        }
+
+    }
+
+    System.out.println("\nExecuting Task:");
+    System.out.println(tasks[highestIndex]);
+
+    for(int i = highestIndex; i < taskCount - 1; i++){
+
+        tasks[i] = tasks[i + 1];
+
+    }
+
+    tasks[taskCount - 1] = null;
+
+    taskCount--;
+
+}
 }
 
 
