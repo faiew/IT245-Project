@@ -64,3 +64,11 @@ public void dequeue() {
 }
   
   
+
+
+// Display all tasks in the linked list queue
+public void displayQueue() {
+    if (isEmpty()) {
+        System.out.println("Queue is empty.");
+        return;
+    }
