@@ -148,6 +148,32 @@ public void displayPendingTasks(){
     taskCount--;
 
 }
+ public static void main(String[] args){
+
+    System.out.println("===== Task Scheduling System using Array =====");
+
+    ArrayImplementation scheduler =
+            new ArrayImplementation(5);
+
+    scheduler.addTask("Database Backup",3);
+    scheduler.addTask("Security Bug Fix",1);
+    scheduler.addTask("Update Website",5);
+    scheduler.addTask("Generate Report",2);
+
+    scheduler.displayPendingTasks();
+
+    System.out.println("\nExecuting Tasks...\n");
+
+    scheduler.executeNextTask();
+    scheduler.executeNextTask();
+
+    scheduler.displayPendingTasks();
+
+    scheduler.executeNextTask();
+    scheduler.executeNextTask();
+    scheduler.executeNextTask();
+
+}
 }
 
 
