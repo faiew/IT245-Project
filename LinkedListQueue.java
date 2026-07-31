@@ -79,3 +79,22 @@ public void displayQueue() {
   System.out.println("---------------------------");
 }
 }
+
+public class TaskSchedulerTest{
+  public static void main(String[]args){
+    System.out.println("\n===Testing Linked List Queue===");
+    LinkedListQueue queue= new LinkedListQueue();
+    //Test dequeue on an empty queue
+    queue.dequeue();
+
+    queue.enqueue(101,"Compile Code");
+    queue.enqueue(102,"Run Unit Tests");
+
+    queue.displayQueue();
+
+    queue.dequeue();
+    queue.dequeue();
+
+    System.out.println("Is Queue Empty?"+queue.isEmpty());
+  }
+}
