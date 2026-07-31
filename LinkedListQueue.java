@@ -47,7 +47,7 @@ public boolean isEmpty() {
 }
 
 
-‏// Remove task from the front of the queue
+// Remove task from the front of the queue
 public void dequeue() {
     if (isEmpty()) {
         System.out.println("Queue is underflow. No tasks to dequeue.");
@@ -64,11 +64,18 @@ public void dequeue() {
 }
   
   
-
-
 // Display all tasks in the linked list queue
 public void displayQueue() {
     if (isEmpty()) {
         System.out.println("Queue is empty.");
         return;
     }
+  System.out.println("\nCurrent Queue Contents:");
+  TaskQueueItem current= front;
+  while(current !=null){
+    System.out.println(current);
+    current= current.next;
+  }
+  System.out.println("---------------------------");
+}
+}
