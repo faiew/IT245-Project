@@ -1,54 +1,41 @@
 # IT245 | Task Scheduling System
 
-
-## Introduction
-
-      Managing tasks efficiently is critical in many software systems. In this project, we develop a Task Scheduling System to manage and schedule tasks. 
-To compare different approaches, we implement two distinct solutions using fundamental data structures: a sequential Array-based solution 
-and a Linked-List Queue solution.
-    Finally, we analyze and compare their Big-O time complexity to evaluate their performance
- 
-
-
-
-## Team Members
-
-- **Leader:** Fay Baddah Aldossari
-- **Team Member 2:** Albandary Alhayyaf
-- **Team Member 3:** Amal Khalid Alawwadhi
-- **Team Member 4:** Juri Mohammed Bawazir
-
-
-
-## Project Requirements
-
-- Implement two different solutions.
-- Use an Array structure in the first solution and a Linked-List Queue in the second solution
-- Analyze the Big-O time complexity for both solutions.
-- Test both solutions in the main method.
-
-
-
-  ---
-
-## Work Completed This Period
-
-- Created the initial project report and wrote the project problem statement.
-- Added the project artifact links, Google Doc and GitHub repository.
-- Divided the project tasks among the team members.
-- Started implementing the array-based solution for the task scheduling system with Albandary.
+This project presents a **Task Scheduling System** developed for the **IT245 – Data Structures** course. The project compares two different data structure implementations for managing and executing tasks and evaluates their performance using Big-O time complexity analysis.
 
 ---
 
-## Key Decisions Made During This Period
+## Team Members
 
-- Decision 1: One key decision made during this period was to implement the first solution
-  using a fixed-size array (Task[]), relying on task priority and arrival order, with a shifting
-   mechanism to keep the array organized after execution.
+| Name | Role |
+| :--- | :--- |
+| **Fay Baddah Aldossari** | Project Leader, Co-developed the Linked-List Queue Implementation & System Architecture |
+| **Amal Khalid Alawwadhi** | Implementation & First Solution Lead |
+| **Juri Mohammed Bawazir** | Implementation & Second Solution Lead |
+| **Albandary Alhayyaf** | Co-developed the Array-Based Solution, Algorithm Analysis & Quality Lead |
 
+---
 
+## Project Requirements
+
+- Implement two different data structure solutions.
+- **Solution 1:** Use a fixed-size array to store tasks and execute them based on priority and arrival order.
+- **Solution 2:** Use a linked-list queue to process tasks following the **First-In, First-Out (FIFO)** principle.
+- Analyze the Big-O time complexity of both implementations.
+- Demonstrate and test both solutions in the `main()` method.
+
+---
+
+## Project Structure
+
+- `Task.java` – Defines the task object and its attributes.
+- `ArrayImplementation.java` – Implements the array-based task scheduling solution and includes testing.
+- `TaskSchedulerTest.java` – Implements and tests the linked-list queue solution.
+- **Project Report** – Contains the project documentation, implementation details, and Big-O analysis.
+
+---
 
 ## Project Artifacts
 
-- **Live Report Document:** https://acesse.one/5bmn8aw
-- **GitHub Repository:** https://github.com/faiew/IT245-Project
+- **Live Report Document:** [View Report](https://acesse.one/5bmn8aw)
+
+- **GitHub Repository:** [IT245-Project](https://github.com/faiew/IT245-Project)
