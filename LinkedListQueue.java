@@ -82,7 +82,7 @@ public void displayQueue() {
 
 public class TaskSchedulerTest{
   public static void main(String[]args){
-    System.out.println("\n===Testing Linked List Queue===");
+    System.out.println("===== Task Scheduling System using Linked List Queue =====");
     LinkedListQueue queue= new LinkedListQueue();
     //Test dequeue on an empty queue
     queue.dequeue();
