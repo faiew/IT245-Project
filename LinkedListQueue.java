@@ -95,6 +95,6 @@ public class TaskSchedulerTest{
     queue.dequeue();
     queue.dequeue();
 
-    System.out.println("Is Queue Empty?"+queue.isEmpty());
+    System.out.println("Is Queue Empty? "+queue.isEmpty());
   }
 }
